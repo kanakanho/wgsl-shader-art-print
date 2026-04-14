@@ -1,0 +1,21 @@
+{
+  "name": "wgsl-shader-art-print",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^8.1.1",
+    "@types/node": "^25.6.0",
+    "@webgpu/types": "^0.1.69",
+    "eslint": "^10.2.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4"
+  }
+}
