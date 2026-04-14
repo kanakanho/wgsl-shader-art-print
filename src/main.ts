@@ -29,7 +29,7 @@ async function main() {
   })
 
   const path = window.location.pathname
-  const shaderName: string = persePath(path)[0] || 'hexagram'
+  const shaderName: string = persePath(path)[1] || 'hexagram'
   const shaderSource = await fetchShedar(shaderName)
 
   const handleResize = () => {
